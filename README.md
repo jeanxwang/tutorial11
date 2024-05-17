@@ -1,0 +1,2 @@
+1. after exposing the service, each GET request will be logged.
+2. Namespaces in Kubernetes isolate resource groups within a cluster. `kubectl get` without `-n` retrieves default namespace info, while `-n` retrieves info from a specific namespace. In this tutorial, only `kube-system` namespace info is retrieved. Pods/services created in default namespace are not mentioned in the output.
